@@ -82,5 +82,6 @@ while cap.isOpened():
     # Press esc to stop detect
     if cv2.waitKey(1) == 27:
         break
+    
 print("Can't Open Camera...")
 exit()
